@@ -4,16 +4,17 @@
  * main - Entry point
  *
  *
- * Description: 'the program's prints the size of various types on the computer it is compiled and run on.'
+ * 'the program's prints the size'
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
+	char e;
 	int m;
 	long int a;
 	long long int n;
-	char e;
+	
 	float r;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(m));
