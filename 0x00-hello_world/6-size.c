@@ -10,10 +10,10 @@
  */
 int main(void)
 {
-	char e;
+	char a;
 	int m;
-	long int a;
-	long long int n;
+	long int n;
+	long long int a;
 	float r;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(m));
