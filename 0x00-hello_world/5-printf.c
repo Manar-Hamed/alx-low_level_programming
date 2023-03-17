@@ -4,7 +4,7 @@
  * main - Entry point
  *
  *
- * Description: 'the program's prints a sentence'
+ * Description: 'the program's prints a sentence with a new line at the end of it'
  *
  * Return: Always 0 (Success)
  */
