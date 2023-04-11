@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "code.h"
+#include "main.h"
 int _strlen(char *ch);
 
 /**
