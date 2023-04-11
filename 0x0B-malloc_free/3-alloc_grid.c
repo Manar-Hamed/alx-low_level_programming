@@ -7,8 +7,11 @@
 * @width: self explainatory. the rows.
 * @height: probably not the width. the vert
 *
-* Description: Create a grid with a specific width and height, where every index is initialized as 0.
-* Return: The output will be a pointer, or null if the operation is unsuccessful.
+* Description: Create a grid with a specific
+* width and height,
+* where every index is initialized as 0.
+* Return: The output will be a pointer, or null if
+* the operation is unsuccessful.
 * A: test cases if we get a 0 or negative size. return NULL
 * B: we test if the input is too much so we will return null
 * C: we need to free the test memory. dont want valgrind on us
@@ -23,8 +26,9 @@
 * G: return the pointer
 * I deleted stuff my comments are screwed i changed stuff also
 * D again: I check if height and width can overflow both.
-* TLDR: Free the allocated memory starting from the rows, 
-* going backwards. Finally, free the initial pointer you allocated using malloc.
+* TLDR: Free the allocated memory starting from the rows,
+* going backwards. Finally, free the initial pointer you 
+* allocated using malloc.
 */
 
 int **alloc_grid(int width, int height)
