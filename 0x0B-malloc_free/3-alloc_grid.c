@@ -27,7 +27,7 @@
 * I deleted stuff my comments are screwed i changed stuff also
 * D again: I check if height and width can overflow both.
 * TLDR: Free the allocated memory starting from the rows,
-* going backwards. Finally, free the initial pointer you 
+* going backwards. Finally, free the initial pointer you
 * allocated using malloc.
 */
 
