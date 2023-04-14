@@ -13,9 +13,9 @@ int *array_range(int min, int max)
 {
 	/* int pointer variable for malloc */
 	/* Variable used to determine the range's size to*/
-        /* enable the usage of sizeof. */
+	/* enable the usage of sizeof. */
 	/* Variable to iterate through the positions and*/
-        /* assign them to the new pointer. */
+	/* assign them to the new pointer. */
 	int *newarray;
 	int positions;
 	int runner;
