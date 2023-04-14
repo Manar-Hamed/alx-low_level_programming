@@ -11,7 +11,7 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int *pointer =malloc(b) ;
+	int *pointer = malloc(b);
 
 	if (pointer == 0)
 		exit(98);
