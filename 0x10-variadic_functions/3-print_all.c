@@ -9,7 +9,7 @@
 void print_all(const char * const format, ...)
 {
 	/* with the type structure define now I can create the structure */
-	characters arraychars[] = {
+	mytoken arraychars[] = {
 		{"c", printchar},
 		{"i", printinteger},
 		{"f", printfloat},
